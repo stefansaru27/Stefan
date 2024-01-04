@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.hdqwalls.com/wallpapers/rick-and-morty-season-4-2019-4k-ro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Arial", sans-serif;
+  color: blueviolet; /
+}
+#pageTitle {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: blueviolet; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+#myForm {
+  display: flex;
+  font-size: 18px;
+  width: 50%; 
+  margin: 30px auto 10px; 
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#submit,
+#submitAll {
+  padding: 10px;
+  background-color: blueviolet; 
+  color: #fff; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#output {
+  list-style: none;
+  padding: 0;
+  width: 40%; 
+  margin: 0px auto; 
+}
+li {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+  margin-bottom: 5px; 
+  padding: 8px; 
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: #333; 
+}
+li:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  appearance: none; 
+  background-color: #fff;
+  color: #333;
+}
+select:hover {
+  border-color: #aaa;
+}
+select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+select::after {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
